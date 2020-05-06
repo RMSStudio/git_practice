@@ -1,0 +1,153 @@
+html {
+    font-family: Helvetica;
+    font-size: 22px;
+    color: seashell;
+    background-color: black;
+    opacity: 0.9;
+}
+
+body {
+    width: 100%;
+    margin: 0;
+}
+
+#logo {
+    width: auto;
+    height: 50px;
+    padding-top: 10px;
+    padding-left: 10px;
+}
+
+a {
+    color: white;
+}
+
+header {
+    background-color: black;
+    z-index: 2;
+    width: 100%;
+    height: 69px;
+    position: fixed;
+    border-bottom: 1px solid seashell;
+    opacity: 0.9;
+}
+
+.navigation .nav-point {
+    display: inline-flex;
+    padding-left: 25px; 
+}
+
+.nav-point {
+    text-decoration: underline;
+    list-style-type: none;
+}
+
+nav ul {
+    float: right;
+    margin-right: 10px;
+    align-items: center;
+    display: inline-flex;
+}
+
+header nav ul {
+    vertical-align: middle;
+}
+
+nav {
+    margin-top: -66px;
+    height: 69px; 
+}
+
+#bd {
+    width: auto;
+    height: 700px;
+}
+
+.our-mission {
+    background-image: url(/resources/images/img-mission-background.jpg);
+    background-size: cover;
+    height: 700px;
+    width: 85%;
+    position: relative;
+    background-position: center;
+    margin: 0 auto;
+    padding: 69px 70px 0 70px;
+}
+
+.our-mission-points {
+    height: 165px;
+    margin: 8px 0;
+    position: absolute;
+    top: 47%;
+    left: 10%;
+    right: 10%;
+    text-align: center;
+    background-color: black;
+    color: white;
+    opacity: 0.9;
+}
+
+.tea-of-the-month {
+    margin-top: 69px;
+    text-align: center;
+}
+
+.card img {
+    height: 200px;
+    width: 300px;
+}
+
+.cards, .card, h4 {
+    text-align: center;
+}
+
+.cards .card {
+    display: inline-block;
+    padding: 10px;
+}
+
+.cards {
+    width: 1000px;
+    margin: 0 auto;
+}
+
+.location h2 {
+    padding-top: 105px;
+    text-align: center;
+}
+
+.location {
+    background-image: url(/resources/images/img-locations-background.jpg);
+    height: 500px;
+    width: 85%;
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    margin: 0 auto;
+}
+
+.location-card-box {
+    background-color: black;
+    width: 300px;
+    height: 300px;
+}
+
+.location-card-box .location-card {
+    padding: 10px;
+    text-align: center;
+    margin: 20 auto;
+}
+
+ #h3-location {
+     padding-top: 0px;
+ }
+
+ .all-locations {
+     display: inline-flex;
+ }
+
+ .all-locations .location-card-box{
+     padding: 0px;
+     margin: 0 60px;
+     align-content: space-around;
+ }
